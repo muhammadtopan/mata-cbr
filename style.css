@@ -61,7 +61,8 @@
 	text-align:left;
 	padding:7px;
 	font-size:13px;
-	font-family:Arial;
+  font-family: 'Poppins',
+  sans-serif !important;
 	font-weight:normal;
 	color:#000000;
 }.CSSTableGenerator tr:last-child td{
@@ -81,7 +82,8 @@
 	text-align:center;
 	border-width:0px 0px 1px 1px;
 	font-size:14px;
-	font-family:Arial;
+  font-family: 'Poppins',
+  sans-serif !important;
 	font-weight:bold;
 	color:#ffffff;
 }
@@ -101,7 +103,8 @@
 
 #art-main, table
 {
-    font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -123,13 +126,15 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
 .art-postcontent a:hover,
 .art-postcontent a.hovered
 {
-    font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
 }
 
 .art-postcontent p
 {
     margin: 12px 0;
-	font-family:Calibri;
+  font-family: 'Poppins',
+  sans-serif !important;
 	font-size:13pt; color:#333;
 }
 
@@ -139,7 +144,8 @@ h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited,
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover
 {
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -336,6 +342,8 @@ body
   background-attachment: fixed;
   background-position: top left;
   min-width: 800px;
+  font-family: 'Poppins',
+  sans-serif !important;
 }
 
 .cleared
@@ -463,7 +471,8 @@ h1.art-logo-name
 {
   display: block;
   text-align: left;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 25px;
   padding: 0;
   margin: 0;
@@ -475,7 +484,8 @@ h1.art-logo-name a:link,
 h1.art-logo-name a:visited, 
 h1.art-logo-name a:hover
 {
-  font-family:Verdana, Geneva, sans-serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 25px;
   padding: 0;
   margin: 0;
@@ -486,7 +496,8 @@ h2.art-logo-text
 {
   display: block;
   text-align: left;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 16px;
   padding: 0;
   margin: 0;
@@ -498,7 +509,8 @@ h2.art-logo-text a:link,
 h2.art-logo-text a:visited,
 h2.art-logo-text a:hover
 {
-  font-family: "Courier New", Courier, Monospace;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 12px;
   padding: 0;
   margin: 0;
@@ -1039,7 +1051,8 @@ div.art-block img
   position: relative;
   padding: 5px;
   color: #2E3D4C;
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 13px;
 }
 
@@ -1051,7 +1064,8 @@ div.art-block img
 .art-blockcontent-body a:hover
 {
   color: #2E3D4C;
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 13px;
 }
 
@@ -1094,7 +1108,8 @@ div.art-block img
 .art-button-wrapper button.art-button
 {
   text-decoration: none;
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -1146,7 +1161,8 @@ div.art-block img
 input, select, textarea
 {
   vertical-align: middle;
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -1313,7 +1329,8 @@ h2.art-postheader a:hover,  h2.art-postheader a.hovered
 .art-postheadericons a:visited,
 .art-postheadericons a:hover
 {
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   color: #3D5266;
 }
 
@@ -1414,7 +1431,8 @@ h2.art-postheader a:hover,  h2.art-postheader a.hovered
 .art-postfootericons a:visited,
 .art-postfootericons a:hover
 {
-  font-family: Arial, Helvetica, Sans-Serif;
+  font-family: 'Poppins',
+  sans-serif !important;
   color: #3D5266;
 }
 
@@ -1545,7 +1563,8 @@ div.art-footer img
 .art-page-footer a:visited,
 .art-page-footer a:hover
 {
-  font-family: Arial;
+  font-family: 'Poppins',
+  sans-serif !important;
   font-size: 10px;
   letter-spacing: normal;
   word-spacing: normal;
@@ -1576,3 +1595,16 @@ div.art-footer img
 /* begin LayoutCell, content */
 
 /* end LayoutCell, content */
+
+/* new style */
+
+.jumbotron.jumbotron-fluid {
+  background-image: url('images/header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 253px;
+}
+
+.bg-cream {
+  background-color: #f5e2ba !important;
+}
