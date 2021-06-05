@@ -1,10 +1,10 @@
 <div class="art-post">
 <div class="art-post-body">
 <div class="art-post-inner art-article">
-<h2 class="art-postheader">Jenis-jenis Sakit Mata Ini Wajib Diwaspadai</h2>
+<h1 class="text-secondary">Jenis-jenis Sakit Mata Ini Wajib Diwaspadai</h1>
 <p><strong>Beberapa jenis sakit mata dapat menular melalui kontak fisik. Ketahui ciri-ciri </strong><strong>penyakit ini </strong><strong>dan </strong><strong>bagaimana </strong><strong>cara untuk menghindari penularan</strong><strong>nya</strong><strong>. </strong></p>
 <p>Sebagian sakit mata tidak bersifat menular sehingga pengidapnya dapat   tetap beraktivitas selama penglihatannya masih baik. Tetapi ada   beberapa jenis sakit mata yang membuat seseorang yang mengidapnya   disarankan untuk menunda aktivitas di kantor atau di sekolah terlebih   dahulu agar orang lain tidak tertular.</p>
-<p><img src="images/infomata.jpg" /> /></p>
+<p><img src="images/infomata.jpg"/></p>
 <p><strong>Herpes Zoster Oftalmikus </strong></p>
 <p>Tidak banyak yang tahu bahwa virus herpes yang menyebabkan <a href="https://www.alodokter.com/cacar-air/" target="_blank">cacar air</a> ternyata juga dapat menyebabkan sakit mata yang disebut dengan sakit   mata herpetik. Penyakit mata ini yang disebut herpes zoster oftalmikus   disebabkan oleh virus varicella-zoster. Beberapa kondisi yang dapat   menjadi gejala sakit mata herpetik ini, antara lain:</p>
 <ul>

@@ -72,10 +72,10 @@ include "../koneksi.php";
          </td>
       </tr>
       <tr bgcolor="#FFFFFF">
-        <td>Bobot dari Pakar</td>
+        <td>Bobot</td>
         <td><select name="txtbobot" id="txtbobot">
-        <option value="0">[ Bobot Gejala ]</option>
-        <option value="0.2">0.2 | Mendekati</option>
+        <option value="0">[ Bobot Penyakit ]</option>
+        <option value="0.2">0.2 | Tidak Tahu</option>
         <option value="0.4">0.4 | Mungkin</option>
         <option value="0.6">0.6 | Kemungkinan Besar</option>
         <option value="0.8">0.8 | Hampir Pasti</option>

@@ -14,6 +14,14 @@
     <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css" media="screen" /><![endif]-->
     <!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css" media="screen" /><![endif]-->
 
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- lotiefile -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript">
@@ -24,97 +32,34 @@
     </script>
 </head>
 <body onload="direct_link();">
-<?php include "koneksi.php"; ?>
-<div id="art-page-background-glare">
-    <div id="art-page-background-glare-image"> </div>
-</div>
-<div id="art-main">
-    <div class="art-header">
-        <div class="art-header-clip">
-        <div class="art-header-center">
-            <div class="art-header-png"></div>
-            <div class="art-header-jpeg"></div>
-        </div>
-        </div>
-    <div class="art-header-wrapper">
-    <div class="art-header-inner">
-        <div class="art-headerobject"></div>
-        <div class="art-logo">
-                <h1 class="art-logo-name"><a href="./index.html">RSKM Padang Eye Center<br />Sistem Pakar Diagnosa Penyakit Mata</a></h1>
-                         <h2 class="art-logo-text">Menggunakan Metode Case Based Reasoning (CBR) <br /> PHP&MySQL </h2>
-                </div>
-    </div>
-    </div>
-    </div>
-    <div class="cleared reset-box"></div><div class="art-sheet">
-        <div class="art-sheet-tl"></div>
-        <div class="art-sheet-tr"></div>
-        <div class="art-sheet-bl"></div>
-        <div class="art-sheet-br"></div>
-        <div class="art-sheet-tc"></div>
-        <div class="art-sheet-bc"></div>
-        <div class="art-sheet-cl"></div>
-        <div class="art-sheet-cr"></div>
-        <div class="art-sheet-cc"></div>
-        <div class="art-sheet-body">
-<div class="art-nav">
-	<div class="art-nav-l"></div>
-	<div class="art-nav-r"></div>
-<div class="art-nav-outer">
-<?php include "menu.php"; ?>
-</div>
-</div>
-<div class="cleared reset-box"></div>
-<div class="art-content-layout">
-                <div class="art-content-layout-row">
-                    <div class="art-layout-cell art-content">
-<div class="art-post">
- <div class="art-post-body">
-<div class="art-post-inner art-article">
-<div class="art-postcontent">
-<div style="display:none;"><?php $top=$_GET['top']; ?></div>
-<?php
-if(empty($top)){
-$on_top="home.php";
-echo "<meta http-equiv='refresh' content='0; url=index.php?top=home.php'>";
-}
-else{
-$on_top=$top;
-include "$on_top";
-}
-?>
-                </div>
-                <div class="cleared"></div>
-                </div>
-
-		<div class="cleared"></div>
-    </div>
-</div>
-
-                      <div class="cleared"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="cleared"></div>
-            <div class="art-footer">
-                <div class="art-footer-t"></div>
-                <div class="art-footer-body">
-                    <a href="#" class="art-rss-tag-icon" title="RSS"></a>
-                            <div class="art-footer-text">
-                                
-<p><br /></p>
-<p>Copyright © 2021 RSKM Eye Center. All Rights Reserved.</p>
-
-
-                                                            </div>
-                    <div class="cleared"></div>
-                </div>
-            </div>
-    		<div class="cleared"></div>
+    <?php include "koneksi.php"; ?>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-8 pt-5">RSKM Padang Eye Center <br> Sistem Pakar Diagnosa Penyakit Mata</h1>
+            <p class="lead">Menggunakan Metode Case Based Reasoning (CBR) <br> PHP&MySQL</p>
         </div>
     </div>
-    <div class="cleared"></div>
-    <p class="art-page-footer"><a href="http://www.artisteer.com/?p=website_templates">Website Template</a> created with Artisteer.</p>
-</div>
+    <?php include "menu.php"; ?>
+    <div class="container">
+        <div class="art-postcontent">
+            <div style="display:none;"><?php $top=$_GET['top']; ?></div>
+            <?php
+            if(empty($top)){
+            $on_top="home.php";
+            echo "<meta http-equiv='refresh' content='0; url=index.php?top=home.php'>";
+            }
+            else{
+            $on_top=$top;
+            include "$on_top";
+            }
+            ?>
+        </div>
+    </div>
+    <footer class="bg-cream text-dark pt-3 pb-3 text-center mt-5">
+        Copyright &copy; <script>
+            document.write(new Date().getFullYear());
+        </script> <a href="https://www.instagram.com/taufanomt/" target="_blank" style="color: #000; text-decoration: unset">RSKM Eye Center. All Rights Reserved.</a> | <i class="fa fa-heart-o" aria-hidden="true"></i> by Taufano.  
+    </footer>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
