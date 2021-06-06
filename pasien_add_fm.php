@@ -60,8 +60,8 @@
         </div>
       </form>
     </div>
-    <div class="col-md-4">
-      <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_u8o7BL.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
+    <div class="col-md-4 text-center">
+      <lottie-player class="text-center mx-auto" src="https://assets1.lottiefiles.com/packages/lf20_u8o7BL.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
     </div>
   </div>
 </div>

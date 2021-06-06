@@ -1608,3 +1608,98 @@ div.art-footer img
 .bg-cream {
   background-color: #f5e2ba !important;
 }
+p {
+  padding-left: 2px;
+  text-indent: 0px;
+}
+
+.konten p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+.kasusLama {
+  border: 1px solid #069;
+  width: 375px;
+  float: left;
+  min-height: 210px;
+  max-height: 210px;
+  overflow: scroll;
+}
+
+.kasusLama p {
+  background-color: #0CC;
+}
+
+.kasusBaru {
+  border: 1px solid #069;
+  width: 375px;
+  float: left;
+  margin-left: 2px;
+  min-height: 210px;
+  max-height: 210px;
+  overflow: scroll;
+}
+
+.kasusBaru p {
+  background-color: #F90;
+}
+
+.Cleared {
+  position: fixed;
+  width: 750px;
+  background: linear-gradient(to top, #9CC, #9CF);
+}
+
+.morecontent span {
+  display: none;
+}
+
+.morelink {
+  display: block;
+}
+
+.rumus1 {
+  display: none;
+}
+
+
+/* ------------------------------ Responsive Media Styles ---------------------------- */
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+/* Medium Device: 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media only screen and (max-width: 991px) {
+	
+}
+
+/* Tablet Device: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/* Large Device: 480px */
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+/* Small Device: 320px */
+
+@media only screen and (max-width: 479px) {
+
+}

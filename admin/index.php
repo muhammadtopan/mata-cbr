@@ -73,7 +73,7 @@ $(document).ready(function(){
 	</td>
   </tr>
     <tr>
-      <td><p style="background-image:url(../images/nav.png); height:50px; text-align:center; padding:5px;">Copyright © 2021 RSKM Padang Eye Center. All Rights Reserved.</p></td>
+      <td><p style="background-image:url(../images/nav.png); height:50px; text-align:center; padding:5px;">Copyright ï¿½ 2021 RSKM Padang Eye Center. All Rights Reserved.</p></td>
     </tr>
 </table>
 </body>

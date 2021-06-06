@@ -4,7 +4,7 @@
       <h1>Daftar Penyakit</h1>
       <div class="art-postcontent">
         <table class="table table-striped">
-          <tr bgcolor="#f5e2ba  ">
+          <tr bgcolor="#f5e2ba">
             <td class="text-center" colspan="4"><b>DAFTAR PENYAKIT MATA YANG TERDAPAT DALAM SISTEM INI</b></td>
           </tr>
           <tr bgcolor="#DBEAF5"> 

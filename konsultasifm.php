@@ -1,9 +1,5 @@
-<html>
-<head>
-<title>Form Utama Penelusuran</title>
-<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
 <script type="text/javascript">
-$(document).ready(function()
+	$(document).ready(function()
 		{
 			$("form").submit(function()
 			{
@@ -43,33 +39,38 @@ $(document).ready(function()
 			//--
 		});
 </script>
-<style type="text/css">
-ul {list-style:none;}
-li {line-height:-6px; font-weight:normal; color:#09F;}
-</style>
-</head>
-<body>
-<br>
-<div class="konten"><form  method="post" name="form" target="_self" action="?top=konsulperiksa.php">
-  <table width="700" border="0" align="center" cellpadding="2" cellspacing="1" bordercolor="#FFFFFF">
-    <tr> 
-      <td colspan="2"><div align="center"><strong>Form Konsultasi : Pilih Gejala Yang Dialami</strong></div></td>
-    </tr>
-    <tr>
-      <td colspan="2">&nbsp;</td>
-    </tr>
-	<tr><td width="504" >  
-    <?php
-	include "koneksi.php";
-	$query=mysqli_query($con,"SELECT * FROM gejala") or die("Query Error..!" .mysqli_error);
-	while ($row=mysqli_fetch_array($query)){
-	?>
-    	<li><input type="checkbox" name="gejala[]" id="gejala" value="<?php echo $row['kd_gejala'];?>"><?php echo "[".$row['kd_gejala']."] ".$row['gejala'];?></li>
-		 <?php } ?>
-       </td> </tr>
-	<tr>  <td width="504" align="right" bgcolor="#FFFFFF"><input type="submit" name="Submit" value="Proses Diagnosa">	  <input type="reset" value="Reset"></td>
-    </tr>
-  </table>
-</form></div>
-</body>
-</html>
+<div class="konten">
+	<h2 class="text-center text-secondary">Form Konsultasi : Pilih Gejala Yang Dialami</h2>
+	<form  method="post" name="form" target="_self" action="?top=konsulperiksa.php">
+	<table class="table table-striped">
+		<thead bgcolor="#f5e2ba">
+			<tr>
+			<th scope="col" class="text-center">No</th>
+			<th scope="col" class="text-center">Pilih</th>
+			<th scope="col" class="text-center">Gejala</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php
+			include "koneksi.php";
+			$query=mysqli_query($con,"SELECT * FROM gejala") or die("Query Error..!" .mysqli_error);
+			$no=0;
+			while ($row=mysqli_fetch_array($query)){
+			$no++;
+			?>
+				<tr>
+					<th scope="row" class="text-center"><?php echo $no ?></th>
+					<td class="text-center"><input type="checkbox" name="gejala[]" id="gejala" value="<?php echo $row['kd_gejala'];?>"></td>
+					<td><label for=""><?php echo "[".$row['kd_gejala']."] ".$row['gejala'];?></label></td>
+				</tr>
+			<?php } ?>
+		</tbody>
+	</table>
+	<div class="row mt-5">
+		<div class="text-center">
+		<button type="submit" name="Submit" class="btn btn-info col-md-3 rounded-pill">Proses Diagnosa</button>
+		<button type="reset" class="btn btn-warning col-md-3 rounded-pill">Reset</button>
+		</div>
+	</div>
+	</form>
+</div>
